@@ -9,7 +9,11 @@
 
 # print("hello safaa , are you 20 year old ?")
 
-x="python"
-y="is"
-z="simple"
-print(x+y+z)
+# x="python"
+# y="is"
+# z="simple"
+# print(x+y+z)
+
+
+for x in "banana":
+    print(x)
