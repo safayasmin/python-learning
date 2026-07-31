@@ -7,4 +7,9 @@
 # print(3+3)
 # print(10-3)
 
-print("hello safaa , are you 20 year old ?")
+# print("hello safaa , are you 20 year old ?")
+
+x="python"
+y="is"
+z="simple"
+print(x+y+z)
