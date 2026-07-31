@@ -15,5 +15,8 @@
 # print(x+y+z)
 
 
-for x in "banana":
-    print(x)
+# for x in "banana":
+#     print(x)
+
+x=5
+print(type(x))
