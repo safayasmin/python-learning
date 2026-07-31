@@ -18,5 +18,8 @@
 # for x in "banana":
 #     print(x)
 
-x=5
-print(type(x))
+# x=5
+# print(type(x))
+
+x="hello safa"
+print(len(x))
