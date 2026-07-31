@@ -21,5 +21,10 @@
 # x=5
 # print(type(x))
 
-x="hello safa"
-print(len(x))
+# x="hello safa"
+# print(len(x))
+
+
+num=5
+x="good" if num>3 else "bad"
+print(x)
