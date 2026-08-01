@@ -102,6 +102,17 @@
 # print(x["name"])
 
 
-age=18
-print(age<20 and age>16)
+# age=18
+# print(age<20 and age>16)
 
+
+
+mark=53
+if mark>60:
+    print("good")
+elif mark>50:
+    print("average")
+elif mark>40:
+    print("okey okey")
+else:
+    print("fail")
