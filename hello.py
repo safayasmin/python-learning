@@ -59,13 +59,16 @@
 
 
 
-age=30
+# age=30
 
-if age>18:
-    print("you are greater than 18")
+# if age>18:
+#     print("you are greater than 18")
 
-    if age>21:
-        print("you are greater than 21")
+#     if age>21:
+#         print("you are greater than 21")
 
 
-    
+for i in range(4):
+    print(i)
+
+print("finished")
