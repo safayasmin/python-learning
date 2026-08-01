@@ -77,8 +77,31 @@
 #     print("hello")
 # greet()    
 
-count=0
-while count<=3:
-    print("count is greater than 0")
-    count+=1
-print("done")
+# count=0
+# while count<=3:
+#     print("count is greater than 0")
+#     count+=1
+# print("done")
+
+# def add(a,b):
+#     "find the sum of 2 nums"
+#     return a+b
+# print(add(1,2))
+# print(add.__doc__)
+
+
+# a=10
+# b=20
+# a,b=b,a
+# print("a=",a)
+
+# x={
+#     "name":"safa",
+#     "age":20
+# }
+# print(x["name"])
+
+
+age=18
+print(age<20 and age>16)
+
