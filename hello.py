@@ -25,6 +25,34 @@
 # print(len(x))
 
 
-num=5
-x="good" if num>3 else "bad"
-print(x)
+# num=5
+# x="good" if num>3 else "bad"
+# print(x)
+
+
+# for x in "banana":
+#     print(x)
+
+
+# x="safa "
+# print(len(x))
+
+# text="hello safa what are you doing"
+# if "what" in text:
+#     print("yes its in text")
+
+
+
+
+# x="safa yasmin"
+# print(x[-5:-2])
+
+# x="safa Yasmin p."
+# print(x.endswith("p."))
+
+
+age=17
+if age>18:
+    print("you are adult")
+
+print("you are minor")
