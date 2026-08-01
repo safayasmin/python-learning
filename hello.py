@@ -59,10 +59,13 @@
 
 
 
-age=22
+age=30
 
 if age>18:
     print("you are greater than 18")
 
     if age>21:
         print("you are greater than 21")
+
+
+    
