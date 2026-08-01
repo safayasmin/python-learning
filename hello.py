@@ -68,7 +68,17 @@
 #         print("you are greater than 21")
 
 
-for i in range(4):
-    print(i)
+# for i in range(4):
+#     print(i)
 
-print("finished")
+# print("finished")
+
+# def greet():
+#     print("hello")
+# greet()    
+
+count=0
+while count<=3:
+    print("count is greater than 0")
+    count+=1
+print("done")
