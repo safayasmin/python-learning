@@ -191,5 +191,9 @@
 # fruits.pop()
 # print(fruits)
 
-x=[1,2,3,4,5]
-print(len(x))
+# x=[1,2,3,4,5]
+# print(len(x))
+
+animals = ["Dog", "Cat", "Lion", "Tiger"]
+for i in animals:
+    print(i)
