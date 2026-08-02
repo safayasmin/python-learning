@@ -225,5 +225,10 @@
 # print(numbers)
 
 
-numbers=(1,2,2,3,4)
-print(numbers.count(3))
+# numbers=(1,2,2,3,4)
+# print(numbers.count(3))
+
+
+colors={"red","white","pink"}
+colors.update(["blue","rose"])
+print(colors)
