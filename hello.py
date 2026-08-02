@@ -107,12 +107,64 @@
 
 
 
-mark=53
-if mark>60:
-    print("good")
-elif mark>50:
-    print("average")
-elif mark>40:
-    print("okey okey")
-else:
-    print("fail")
+# mark=53
+# if mark>60:
+#     print("good")
+# elif mark>50:
+#     print("average")
+# elif mark>40:
+#     print("okey okey")
+# else:
+#     print("fail")
+
+
+# day=5
+# match day:
+#     case 1:
+#         print("sunday")
+#     case 2:
+#         print("monday")
+#     case 3:
+#         print("wednesday")
+#     case _:
+#          print("not daya")
+
+
+# for i in range(4):
+#     print("hello")
+
+
+
+# x=["safa","shifa","sachu"]
+# for item in x:
+#     print(item)
+
+
+# student={
+#     "name":"safa",
+#     "age":20
+# }
+# for value in student.values():
+#     print(value)
+
+
+# count=0
+# while count<=5:
+#     print(count)
+#     count+=1
+
+
+# for i in range(3):
+#     print(i)
+# else:
+#     print("sytp")
+
+# count=5
+# while count>=1:
+#     print("*" *count)
+#     count-=1
+
+
+x=["safa","shifa","sachu"]
+for i in x:
+    print(i)
