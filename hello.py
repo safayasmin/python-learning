@@ -167,6 +167,6 @@
 
 x=["safa","shifa","sachu"]
 i=0
-for i in range(len(x)):
+while i<len(x):
     print(x[i])
     i=i+1
