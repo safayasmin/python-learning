@@ -165,8 +165,13 @@
 #     count-=1
 
 
-x=["safa","shifa","sachu"]
-i=0
-while i<len(x):
-    print(x[i])
-    i=i+1
+# x=["safa","shifa","sachu"]
+# i=0
+# while i<len(x):
+#     print(x[i])
+#     i=i+1
+
+
+
+x=["apple","banana","mango","orange","grapes"]
+print(x)
