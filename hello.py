@@ -173,5 +173,6 @@
 
 
 
-x=["apple","banana","mango","orange","grapes"]
-print(x)
+colors = ["Red", "Blue", "Green"]
+colors[1]="yellow"
+print(colors)
