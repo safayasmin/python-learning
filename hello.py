@@ -218,8 +218,12 @@
 #     print("not found")
 
 
-numbers=(1,2,3)
-text=list(numbers)
-text[1]=33
-numbers=tuple(text)
-print(numbers)
+# numbers=(1,2,3)
+# text=list(numbers)
+# text[1]=33
+# numbers=tuple(text)
+# print(numbers)
+
+
+numbers=(1,2,2,3,4)
+print(numbers.count(3))
