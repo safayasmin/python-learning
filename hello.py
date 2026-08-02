@@ -205,7 +205,21 @@
 #     sum=sum+i
 # print(sum)
 
-x=[4,5,2,9,1]
-x.sort(reverse=True)
-print(x)
-print(x[0])
+# x=[4,5,2,9,1]
+# x.sort(reverse=True)
+# print(x)
+# print(x[0])
+
+# numbers=[1,4,3,7,8,9]
+# num=int(input("enter number: "))
+# if num in numbers:
+#     print("found")
+# else:
+#     print("not found")
+
+
+numbers=(1,2,3)
+text=list(numbers)
+text[1]=33
+numbers=tuple(text)
+print(numbers)
