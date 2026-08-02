@@ -229,6 +229,11 @@
 # print(numbers.count(3))
 
 
-colors={"red","white","pink"}
-colors.update(["blue","rose"])
-print(colors)
+# colors={"red","white","pink"}
+# colors.update(["blue","rose"])
+# print(colors)
+
+
+a={1,2,3,4}
+b={3,4,5,6}
+print(a.difference(b))
