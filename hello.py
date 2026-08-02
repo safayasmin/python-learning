@@ -173,6 +173,23 @@
 
 
 
-colors = ["Red", "Blue", "Green"]
-colors[1]="yellow"
-print(colors)
+# colors = ["Red", "Blue", "Green"]
+# colors[1]="yellow"
+# print(colors)
+
+# numbers = [10, 20, 30]
+# numbers.append(40)
+# print(numbers)
+
+
+# numbers = [10, 20, 30]
+# numbers.insert(0,5)
+# numbers.append(40)
+# print(numbers)
+
+# fruits = ["Apple", "Banana", "Mango", "Orange"]
+# fruits.pop()
+# print(fruits)
+
+x=[1,2,3,4,5]
+print(len(x))
