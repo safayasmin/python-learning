@@ -238,7 +238,10 @@
 # b={3,4,5,6}
 # print(a.difference(b))
 
+text=input("enter text")
+count=0
+for c in text.lower():
+    if c in "aeiou":
+        count+=1
+print("count is ",count)
 
-text = "Hello Python"
-res=text.upper()
-print(res)
