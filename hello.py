@@ -240,4 +240,5 @@
 
 
 text = "Hello Python"
-print(text)
+res=text.upper()
+print(res)
