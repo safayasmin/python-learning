@@ -251,9 +251,235 @@
 # print(str[::-1])
 
 
-text="madam"
-rev=text[::-1]
-if text==rev:
-    print("palindrom")
-else:
-    print("not palindrom")
+# text="madam"
+# rev=text[::-1]
+# if text==rev:
+#     print("palindrom")
+# else:
+#     print("not palindrom")
+
+
+# text="i love java python java"
+# print(text.replace(" ",""))
+
+# student={
+#     "name":"safa",
+#     "age":20
+# }
+# res=student.values()
+# print(res)
+
+# square = {x:x*x for x in range(1,6) if x%2==0}
+# print(square)
+
+
+
+# d = {}
+
+# for i in range(5):
+#     d[i] = i*i
+# print(d)
+
+# student={
+#     "name":"safa",
+#     "age":20
+# }
+# student.copy()
+# print(student)
+
+
+# student={
+#     "Name"  : "Safa",
+#     "Age"   : 19,
+#     "Course" : "Python",
+#     "Place"  : "Malappuram",
+# }
+# print(student["Name"])
+# print(student["Course"])
+
+
+
+# student = {
+#     "Name": "Safa",
+#     "Age": 19,
+#     "Course": "Python",
+#     "Place": "Malappuram"
+# }
+# student.update({"batch":20 ,"phone":"9876543210"})
+# print(student)
+
+
+
+# student = {
+#     "Name": "Safa",
+#     "Age": 19,
+#     "Course": "Python",
+#     "Place": "Malappuram"
+# }
+# student["Name"]="shahmaa"
+# student["Course"]="mern"
+# print(student)
+
+
+# student = {
+#     "Name": "Safa",
+#     "Age": 19,
+#     "Course": "Python",
+#     "Place": "Malappuram",
+#     "Phone": "9876543210"
+# }
+# student.pop("Phone")
+# student.pop("Age")
+# print(student)
+# if "Name" in student:
+#     print("found email")
+# else:
+#     print("not found")
+
+
+
+# marks = {
+#     "Safa": 95,
+#     "Amina": 82,
+#     "Rahul": 67,
+#     "Arjun": 45,
+#     "Fathima": 90
+# }
+# for name,mark in marks.items():
+#     if mark>90:
+#         print(name,"A")
+#     elif mark>80:
+#         print(name,"B")
+#     elif mark>70:
+#         print(name,"C")
+#     elif mark>60:
+#         print(name,"D")
+#     else:
+#         print(name,"Fail")
+
+
+# text="python"
+# print(text[::-1])
+
+
+# text="Safa Yasmin"
+# count=0
+# for i in text:
+#     if i.isupper():
+#         count=count+1
+# print(count)
+
+# text="ShifaYasmin11@@"
+# count=0
+# for i in text:
+#     if i.isalnum():
+#         count=count+1
+# print(count)    
+
+
+# num=10
+# sum=0
+# for i in range(1,num+1):
+#     sum=sum+i
+# print(sum)
+
+
+# numbers = (1, 2, 3, 2, 4, 2, 5)
+# result=numbers.count(2)
+# print(result)
+
+# a = {1, 2, 3}
+# b = {3, 4, 5}
+# print(a|b)
+
+# a = {1, 2, 3, 4}
+# b = {3, 4, 5, 6}
+# print(a&b)
+
+
+
+
+# def sum(a,b):
+#     return a+b
+# result=sum(2,3)
+# print(result)
+
+# x="globel"
+# def outer():
+#     x="enclosing"
+#     def inner():
+#         x="local"
+#         print(x)
+#     inner()
+# outer()
+
+
+# def student(name,age):
+#     print(name)
+#     print(age)
+# student(age=20,name="safaa")
+
+# def student(name="safaaa"):
+#     print("hello ",name)
+# student()
+
+# def safa(*args):
+#     print(args)
+# safa(1,2,3,4,5)
+
+
+
+# def sum(*args):
+#     s=0
+#     for i in args:
+#         s=s+i
+#     return s
+# print(sum(1,2,3))
+
+# def safa(**kwargs):
+#     print(kwargs)
+# safa(name="safaaa",age=20)
+
+
+# def safa(**kwargs):
+#     for key,value in kwargs.items():
+#         print(key,value)
+# safa(name="safaaa",age=20) 
+
+# def safa(**args):
+#     print(args)
+# safa(id=1,name=2)
+
+
+# def student(name,age):
+#     print(name,age)
+
+# data={
+#     "name":"safaa",
+#     "age":20
+# }
+# student(**data)
+
+# def safa(n):
+#     if n>5:
+#         return
+#     print(n)
+#     safa(n+1)
+# safa(1)
+
+# def factorial(n):
+#     if n==1:
+#         return 1
+#     return n*factorial(n-1)
+# print(factorial(5))
+
+
+def fibonacci(n):
+    if n<=1:
+        return n
+
+    return fibonacci(n-1)+fibonacci(n-2)
+print(fibonacci(6))
+
+
+
