@@ -597,10 +597,25 @@
 #    return n+sum_n(n-1)
 # print(sum_n(10))
 
+# class student:
+#     pass
+# s1=student()
+# s1.name="safa"
+# s1.age=20
+# print(s1.name)
+# print(s1.age)
+
+# class student:
+#     def greet(self):
+#         print("helloooo")
+# s1=student()
+# s1.greet()
+
 class student:
-    pass
-s1=student()
-s1.name="safa"
-s1.age=20
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        
+s1=student("safa",20)
 print(s1.name)
 print(s1.age)
