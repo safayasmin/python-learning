@@ -735,9 +735,35 @@
 # student.checkage(2)
 
 
-class student:
-    @staticmethod
-    def hello():
-        print("hello safaaa")
-s1=student()
-s1.hello()
+# class student:
+#     @staticmethod
+#     def hello():
+#         print("hello safaaa")
+# s1=student()
+# s1.hello()
+
+
+
+# class animal:
+#     def eating(self):
+#         print("eating")
+# class dog(animal):
+#     pass
+# class cat(animal):
+#     pass
+
+# s1=animal()
+# s1.eating()
+
+class Animal:
+    def eating(self):
+        print("Animal is eating")
+
+class Dog(Animal):
+    def bark(self):
+        print("Dog is barking")
+
+d = Dog()
+
+d.eating()
+d.bark()
