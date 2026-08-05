@@ -874,11 +874,23 @@
 # d.dog()
 
 
-class Animal:
-    def ani(self):
-        print("hello safaaa")
-class Dog(Animal):
-    pass
-d=Dog()
-print(isinstance(d,Dog))
-print(issubclass(Dog,Animal))
+# class Animal:
+#     def ani(self):
+#         print("hello safaaa")
+# class Dog(Animal):
+#     pass
+# d=Dog()
+# print(isinstance(d,Dog))
+# print(issubclass(Dog,Animal))
+
+
+class Student:
+    def safa(self,name,age):
+        self.name=name
+        self.age=age
+s=Student()
+s.safa("safa",20)
+print(s.name)
+print(s.age)
+
+
