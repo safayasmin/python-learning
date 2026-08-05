@@ -460,12 +460,12 @@
 # }
 # student(**data)
 
-def safa(n):
-    if n>5:
-        return
-    print(n)
-    safa(n+1)
-safa(1)
+# def safa(n):
+#     if n>5:
+#         return
+#     print(n)
+#     safa(n+1)
+# safa(1)
 
 # def factorial(n):
 #     if n==1:
@@ -483,3 +483,124 @@ safa(1)
 
 
 
+# add=lambda a,b:a+b
+# print(add(10,20))
+
+# print((lambda a,b:a+b)(10,30))
+
+# print((lambda x:x*x)(2))
+
+
+
+# mult=lambda a,b,c:a*b*c
+# print(mult(1,2,3))
+
+# numbers=[1,2,3,4]
+# s=map(lambda x:x*x,numbers)
+# print(list(s))
+
+# x1=[1,2,3,4,6,8]
+# print(list(filter(lambda x:x%2==0,x1)))
+
+
+# students=[
+# ("Safa",85),
+# ("Rahul",90),
+# ("Anu",70)
+# ]
+# students.sort(key=lambda x:x[1],reverse=True)
+# print(students)
+
+
+# from functools import reduce
+# num=[1,2,3,4]
+# sum=reduce(lambda a,b:a+b,num)
+# print(sum)
+
+
+
+# def outer(x):
+#     return lambda y:x+y
+# add=outer(5)
+# print(add(10))
+
+# try:
+#     print(10/2)
+# except ZeroDivisionError:
+#     print("error")
+# else:
+#     print("sucsuss")
+# finally:
+#     print("helooo")
+
+# def safa(numbers):
+#     even=0
+#     odd=0
+#     for i in numbers:
+#         if i%2==0:
+#             even+=1
+#         else:
+#             odd+=1
+#     print(even)
+#     print(odd)
+# safa([1,2,3,4,5,6,7,8])
+
+
+# def introduce(name, course="Python"):
+#     print("hello ",name)
+#     print("course",course)
+
+# introduce("safa")
+
+# def calculate(a, b):
+#     return a+b,a-b,a*b
+   
+# print(calculate(10,20))
+
+# def calculate(a, b):
+#     sum=a+b
+#     difference=a-b
+#     multi=a*b
+#     return sum,difference,multi
+# s,d,m=calculate(10,20)
+# print("sum",s)
+# print("difference",d)
+# print("multi",m)
+
+# num=[10,20,30,40]
+# squr=list(filter(lambda x:x>20 ,num))
+# print(squr)
+
+
+# num1=int(input("enter 1 num :"))
+# num2=int(input("enter 2 num :"))
+
+# try:
+#     result=num1 / num2
+#     print("result is ",result)
+
+# except ZeroDivisionError:
+#     print("zero come")
+
+
+
+# def safe_divide(a, b):
+#     try:
+#         return a/b
+#     except ZeroDivisionError:
+#         print("cannot divided by zero")
+# print(safe_divide(10,2))
+    
+# def sum_n(n):
+#    if n==1:
+#       return 1
+#    return n+sum_n(n-1)
+# print(sum_n(10))
+
+class student:
+    pass
+s1=student()
+s1.name="safa"
+s1.age=20
+print(s1.name)
+print(s1.age)
