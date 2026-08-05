@@ -804,17 +804,33 @@
 # c.fat()
     
 
-class Grandparant:
-    def grand(self):
-        print("i am grandparant")
-class Parant(Grandparant):
-    def para(self):
-        print("i am parant")
-class Child(Parant):
-    def chi(self):
-        print("i am child")
-c=Child()
-c.grand()
-c.para()
-c.chi()
+# class Grandparant:
+#     def grand(self):
+#         print("i am grandparant")
+# class Parant(Grandparant):
+#     def para(self):
+#         print("i am parant")
+# class Child(Parant):
+#     def chi(self):
+#         print("i am child")
+# c=Child()
+# c.grand()
+# c.para()
+# c.chi()
+
+
+class Animal:
+    def eat(self):
+        print("eating start")
+
+class dog(Animal):
+    pass
+class cat(Animal):
+    pass
+class tiger(Animal):
+    pass
+t=tiger()
+t.eat()
+d=dog()
+d.eat()
 
