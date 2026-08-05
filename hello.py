@@ -819,18 +819,66 @@
 # c.chi()
 
 
+# class Animal:
+#     def eat(self):
+#         print("eating start")
+
+
+# class dog(Animal):
+#     pass
+# class cat(Animal):
+#     pass
+# class tiger(Animal):
+#     pass
+# t=tiger()
+# t.eat()
+# d=dog()
+# d.eat()
+
+
+
+# class Parent:
+#     def par(self):
+#         print("hello safaa")
+# class Child(Parent):
+#     def par(self):
+#         super().par()
+#         print("koiiiiiiii")
+# c=Child()
+# c.par()
+    
+
+
+# class parant:
+#     def __init__(self,name):
+#         self.name=name
+
+# class chlid(parant):
+#     def __init__(self,name,age):
+#         super().__init__(name)
+#         self.age=age
+
+# ch=chlid("safaa",29)
+# print(ch.name)
+# print(ch.age)
+
+
+# class animal:
+#     def dog(self):
+#         print("it is dog")
+
+# class cat(animal):
+#     pass
+
+# d=cat()
+# d.dog()
+
+
 class Animal:
-    def eat(self):
-        print("eating start")
-
-class dog(Animal):
+    def ani(self):
+        print("hello safaaa")
+class Dog(Animal):
     pass
-class cat(Animal):
-    pass
-class tiger(Animal):
-    pass
-t=tiger()
-t.eat()
-d=dog()
-d.eat()
-
+d=Dog()
+print(isinstance(d,Dog))
+print(issubclass(Dog,Animal))
