@@ -702,10 +702,42 @@
     
 
 
-class Employee:
-    company="Google"
-    @classmethod
-    def change_company(cls,newcmpy):
-        cls.company=newcmpy
-Employee.company="Microsoft"
-print(Employee.company)
+# class Employee:
+#     company="Google"
+#     @classmethod
+#     def change_company(cls,newcmpy):
+#         cls.company=newcmpy
+# Employee.company="Microsoft"
+# print(Employee.company)
+
+
+# class clacolator:
+#     @staticmethod
+#     def add(a,b):
+#         return a+b
+# print(clacolator.add(3,5))
+
+# class student:
+#     @staticmethod
+#     def greet():
+#         print("hello safa")
+# student.greet()
+
+
+# class student:
+#     @staticmethod
+#     def checkage(age):
+#         if age>18:
+#             print("adult")
+#         else :
+#             print("minor")
+
+# student.checkage(2)
+
+
+class student:
+    @staticmethod
+    def hello():
+        print("hello safaaa")
+s1=student()
+s1.hello()
