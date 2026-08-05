@@ -755,15 +755,66 @@
 # s1=animal()
 # s1.eating()
 
-class Animal:
-    def eating(self):
-        print("Animal is eating")
+# class Animal:
+#     def eating(self):
+#         print("Animal is eating")
 
-class Dog(Animal):
-    def bark(self):
-        print("Dog is barking")
+# class Dog(Animal):
+#     def bark(self):
+#         print("Dog is barking")
 
-d = Dog()
+# d = Dog()
 
-d.eating()
-d.bark()
+# d.eating()
+# d.bark()
+
+
+# class animal:
+#     def eat(self):
+#         print("hello safaa")
+# class dog(animal):
+#     print("koooiii")
+#     pass 
+# d=dog()
+# d.eat()
+
+
+# class Parent:
+#     def introduce(self):
+#         print("i am person")
+# class Student(Parent):
+#     pass
+
+# s1=Student()
+# s1.introduce()
+
+
+# class Father:
+#     def fat(self):
+#         print("i am father")
+
+# class Mother:
+#     def mat(self):
+#         print("i am mother")
+
+# class Child(Father,Mother):
+#     pass
+# c=Child()
+# c.mat()
+# c.fat()
+    
+
+class Grandparant:
+    def grand(self):
+        print("i am grandparant")
+class Parant(Grandparant):
+    def para(self):
+        print("i am parant")
+class Child(Parant):
+    def chi(self):
+        print("i am child")
+c=Child()
+c.grand()
+c.para()
+c.chi()
+
