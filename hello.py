@@ -611,11 +611,64 @@
 # s1=student()
 # s1.greet()
 
+# class student:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+
+# s1=student("safa",20)
+# print(s1.name)
+# print(s1.age)
+
+# class student:
+#     pass
+#     print("helloo")
+# s1=student()
+# print(student)
+
+
+# class student:
+#     def greet(self):
+#         self.name="safaa"
+#         print(self.name)
+
+# s1=student()
+# s1.greet()
+
+# class student:
+#     def __init__(self):
+#         self.name="safa"
+# s1=student()
+# print(s1.name)
+
+
+# class student:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+# s1=student("safaa",20)
+# print(s1.name)
+# print(s1.age)
+
+
+# class student:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+# s1=student("safaa",29)
+# s2=student("ashmil",20)
+# s1.name="shofaaaa"
+# print(s1.name)
+# print(s2.name)
+
 class student:
-    def __init__(self,name,age):
+    school="ABC SCHOOL"
+    
+    def __init__(self,name):
         self.name=name
-        self.age=age
-        
-s1=student("safa",20)
-print(s1.name)
-print(s1.age)
+student.school="abcd"  
+s1=student("safa")
+s2=student("sachu")
+
+print(s1.school)
+print(s2.school)
