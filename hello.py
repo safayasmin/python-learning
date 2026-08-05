@@ -661,14 +661,51 @@
 # print(s1.name)
 # print(s2.name)
 
-class student:
-    school="ABC SCHOOL"
+# class student:
+#     school="ABC SCHOOL"
     
-    def __init__(self,name):
-        self.name=name
-student.school="abcd"  
-s1=student("safa")
-s2=student("sachu")
+#     def __init__(self,name):
+#         self.name=name
+# student.school="abcd"  
+# s1=student("safa")
+# s2=student("sachu")
 
-print(s1.school)
-print(s2.school)
+# print(s1.school)
+# print(s2.school)
+
+
+# class student:
+#     school="abx"
+#     @classmethod
+#     def change(cls,newname):
+#         cls.school=newname
+
+# student.change("hfffff")
+# print(student.school)
+
+
+# class student:
+#     school="abx"
+#     @classmethod
+#     def changeclass(cls,newschool):
+#         cls.school=newschool
+# student.school="abdhg"
+# print(student.school)
+
+# class car:
+#     brand="bmw"
+#     @classmethod
+#     def show_brand(cls):
+#         print(cls.brand)
+
+# car.show_brand()
+    
+
+
+class Employee:
+    company="Google"
+    @classmethod
+    def change_company(cls,newcmpy):
+        cls.company=newcmpy
+Employee.company="Microsoft"
+print(Employee.company)
