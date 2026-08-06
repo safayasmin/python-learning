@@ -1055,6 +1055,12 @@
 # print(list(result))
 
 
-num=[10,23,3,44,45,60]
-res=filter(lambda x:x%2==0 ,num)
-print(list(num))
+# num=[10,23,3,44,45,60]
+# res=filter(lambda x:x%2==0 ,num)
+# print(list(num))
+
+
+names = ["Ali", "Safa", "Python", "AI"]
+res=filter(lambda x:len(x)>=4 ,names)
+print(list(res))
+
