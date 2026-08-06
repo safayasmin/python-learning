@@ -994,15 +994,41 @@
 # print(s.get__marks())
         
 
-from abc import ABC, abstractmethod
+# from abc import ABC, abstractmethod
 
-class animal(ABC):
-    @abstractmethod
-    def dog(self):
-        print("hellooooo")
-class safa(animal):
-    def dog(self):
-        print("koi")
-a=safa()
-a.dog()
+# class animal(ABC):
+#     @abstractmethod
+#     def dog(self):
+#         print("hellooooo")
+# class safa(animal):
+#     def dog(self):
+#         print("koi")
+# a=safa()
+# a.dog()
 
+
+# nums = [10, 20, 30]
+
+# it = iter(nums)
+
+# print(it)
+
+# nums = [10, 20, 30]
+
+# it=iter(nums)
+# print(next(it))
+# print(next(it))
+# print(next(it))
+
+
+# def show():
+#     yield 10
+# g=show()
+# print(next(g))
+
+
+num=[1,2,3,4]
+def squar(x):
+    return x*x
+res=map(squar,num)
+print(list(res))
