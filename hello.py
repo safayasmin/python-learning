@@ -1081,9 +1081,15 @@
 # res=reduce(lambda x,y:x if x>y else y ,num)
 # print(res)
 
+# names = ["Safa", "Ali", "Sara"]
+# marks = [90, 80, 95,3]
+# res=zip(names,marks)
+# print(list(res))
+
 names = ["Safa", "Ali", "Sara"]
 marks = [90, 80, 95,3]
-res=zip(names,marks)
-print(list(res))
+for name,mark in zip(names,marks):
+    print(name,mark)
+
 
 
