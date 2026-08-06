@@ -1034,6 +1034,17 @@
 # print(list(res))
 
 
-num=[1,2,3,4]
-res=map(lambda x:x*x ,num)
+# num=[1,2,3,4]
+# res=map(lambda x:x*x ,num)
+# print(list(res))
+
+
+# names = ["safa", "python", "java"]
+# res=[]
+# for i in names:
+#     res.append(i.upper())
+# print(res)
+
+names = ["safa", "python", "java"]
+res=map(str.upper ,names)
 print(list(res))
