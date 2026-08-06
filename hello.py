@@ -982,14 +982,27 @@
 # print(b.__init__())
 
 
-class student:
-    def __init__(self):
-        self.__mark=40
-    def set__marks(self,marks):
-        self.__mark=marks
-    def get__marks(self):
-        return self.__mark
-s=student()
-s.set__marks(50)
-print(s.get__marks())
+# class student:
+#     def __init__(self):
+#         self.__mark=40
+#     def set__marks(self,marks):
+#         self.__mark=marks
+#     def get__marks(self):
+#         return self.__mark
+# s=student()
+# s.set__marks(50)
+# print(s.get__marks())
         
+
+from abc import ABC, abstractmethod
+
+class animal(ABC):
+    @abstractmethod
+    def dog(self):
+        print("hellooooo")
+class safa(animal):
+    def dog(self):
+        print("koi")
+a=safa()
+a.dog()
+
