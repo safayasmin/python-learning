@@ -954,14 +954,24 @@
 # d.add(1,2,4,35,7)
 
 
-class demo:
-    def add(self,**kwargs):
-        print(kwargs)
+# class demo:
+#     def add(self,**kwargs):
+#         print(kwargs)
 
-d=demo()
-d.add(name="safaa",age=20)
+# d=demo()
+# d.add(name="safaa",age=20)
 
 
 
+class bankaccount:
+    def __init__(self):
+        self._balance=10000
+    def deposit(self,amount):
+        self._balance=self._balance+amount
+    def total(self):
+        print("balance",self._balance)
+b=bankaccount()
+b.deposit(3000)
+b.total()
 
 
