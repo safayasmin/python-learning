@@ -884,13 +884,67 @@
 # print(issubclass(Dog,Animal))
 
 
-class Student:
-    def safa(self,name,age):
-        self.name=name
-        self.age=age
-s=Student()
-s.safa("safa",20)
-print(s.name)
-print(s.age)
+
+# class Student:
+#     def safa(self,name,age):
+#         self.name=name
+#         self.age=age
+# s=Student()
+# s.safa("safa",20)
+# print(s.name)
+# print(s.age)
+
+
+# class car:
+#     def __init__(self,brand,model):
+#         self.brand=brand
+#         self.model=model
+#     def display(self):
+#         print("brand",self.brand)
+#         print("model",self.model)
+# c=car("bmw","supra")
+# c.display()
+
+
+# class bankaccount:
+#     def __init__(self,account_holder,balance):
+#         self.account_holder=account_holder
+#         self.balance=balance
+
+#     def deposit(self,amount):
+#         self.balance=self.balance+amount
+#         print(amount,"deposite sucsuss")
+#     def withdraw(self,amount):
+#         if amount<=self.balance:
+#             self.balance=self.balance-amount
+#             print(amount,"withdrow sucsuss")
+#         else:
+#             print("error")
+
+#     def display_balance(self):
+#        print("Account Holder:", self.account_holder)
+#        print("Current Balance:", self.balance)
+
+# b1 = bankaccount("Safa", 1000)
+
+# b1.display_balance()
+
+# b1.deposit(500)
+
+# b1.withdraw(300)
+
+# b1.display_balance()
+
+
+
+class demo:
+    def add(self,a,b=0):
+        print(a+b)
+
+d=demo()
+d.add(10)
+d.add(20,30)
+
+
 
 
