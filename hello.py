@@ -1060,7 +1060,14 @@
 # print(list(num))
 
 
-names = ["Ali", "Safa", "Python", "AI"]
-res=filter(lambda x:len(x)>=4 ,names)
-print(list(res))
+# names = ["Ali", "Safa", "Python", "AI"]
+# res=filter(lambda x:len(x)>=4 ,names)
+# print(list(res))
+
+
+marks = [35, 80, 25, 90, 40]
+passed=filter(lambda x:x>=28 ,marks)
+print(list(passed))
+
+
 
