@@ -937,13 +937,30 @@
 
 
 
+# class demo:
+#     def add(self,a,b=0):
+#         print(a+b)
+
+# d=demo()
+# d.add(10)
+# d.add(20,30)
+
+
+# class demo:
+#     def add(self,*args):
+#         print(sum(args))
+# d=demo()
+# d.add(10,29)
+# d.add(1,2,4,35,7)
+
+
 class demo:
-    def add(self,a,b=0):
-        print(a+b)
+    def add(self,**kwargs):
+        print(kwargs)
 
 d=demo()
-d.add(10)
-d.add(20,30)
+d.add(name="safaa",age=20)
+
 
 
 
