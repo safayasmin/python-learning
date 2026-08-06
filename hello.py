@@ -1065,9 +1065,12 @@
 # print(list(res))
 
 
-marks = [35, 80, 25, 90, 40]
-passed=filter(lambda x:x>=28 ,marks)
-print(list(passed))
+# marks = [35, 80, 25, 90, 40]
+# passed=filter(lambda x:x>=28 ,marks)
+# print(list(passed))
 
 
-
+from functools import reduce
+num=[1,2,3,4,5]
+res=reduce(lambda x,y:x+y ,num)
+print(res)
