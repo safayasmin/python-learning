@@ -1045,6 +1045,11 @@
 #     res.append(i.upper())
 # print(res)
 
-names = ["safa", "python", "java"]
-res=map(str.upper ,names)
-print(list(res))
+# names = ["safa", "python", "java"]
+# res=map(str.upper ,names)
+# print(list(res))
+
+
+salary = [20000, 30000, 40000]
+result=map(lambda x:x+5000 ,salary)
+print(list(result))
