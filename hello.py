@@ -1075,7 +1075,15 @@
 # res=reduce(lambda x,y:x+y ,num)
 # print(res)
 
-from functools import reduce
-num=[1,2,3,4,9,6,5]
-res=reduce(lambda x,y:x if x>y else y ,num)
-print(res)
+
+# from functools import reduce
+# num=[1,2,3,4,9,6,5]
+# res=reduce(lambda x,y:x if x>y else y ,num)
+# print(res)
+
+names = ["Safa", "Ali", "Sara"]
+marks = [90, 80, 95,3]
+res=zip(names,marks)
+print(list(res))
+
+
