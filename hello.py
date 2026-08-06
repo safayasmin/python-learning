@@ -1050,6 +1050,11 @@
 # print(list(res))
 
 
-salary = [20000, 30000, 40000]
-result=map(lambda x:x+5000 ,salary)
-print(list(result))
+# salary = [20000, 30000, 40000]
+# result=map(lambda x:x+5000 ,salary)
+# print(list(result))
+
+
+num=[10,23,3,44,45,60]
+res=filter(lambda x:x%2==0 ,num)
+print(list(num))
