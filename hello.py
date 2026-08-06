@@ -963,15 +963,33 @@
 
 
 
-class bankaccount:
+# class bankaccount:
+#     def __init__(self):
+#         self._balance=10000
+#     def deposit(self,amount):
+#         self._balance=self._balance+amount
+#     def total(self):
+#         print("balance",self._balance)
+# b=bankaccount()
+# b.deposit(3000)
+# b.total()
+
+# class bankacc:
+#     def __init__(self):
+#         self.__balance=10000
+    
+# b=bankacc()
+# print(b.__init__())
+
+
+class student:
     def __init__(self):
-        self._balance=10000
-    def deposit(self,amount):
-        self._balance=self._balance+amount
-    def total(self):
-        print("balance",self._balance)
-b=bankaccount()
-b.deposit(3000)
-b.total()
-
-
+        self.__mark=40
+    def set__marks(self,marks):
+        self.__mark=marks
+    def get__marks(self):
+        return self.__mark
+s=student()
+s.set__marks(50)
+print(s.get__marks())
+        
