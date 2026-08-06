@@ -1086,10 +1086,13 @@
 # res=zip(names,marks)
 # print(list(res))
 
+
 names = ["Safa", "Ali", "Sara"]
 marks = [90, 80, 95,3]
 for name,mark in zip(names,marks):
     print(name,mark)
+
+
 
 
 
