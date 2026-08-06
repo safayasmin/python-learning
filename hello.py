@@ -1027,8 +1027,13 @@
 # print(next(g))
 
 
+# num=[1,2,3,4]
+# def squar(x):
+#     return x*x
+# res=map(squar,num)
+# print(list(res))
+
+
 num=[1,2,3,4]
-def squar(x):
-    return x*x
-res=map(squar,num)
+res=map(lambda x:x*x ,num)
 print(list(res))
