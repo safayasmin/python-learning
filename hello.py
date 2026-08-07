@@ -1146,15 +1146,15 @@
 
 
 def decorator(fun):
-    def wraper(*args):
+    def wraper(**kwargs):
         print("koiii")
-        fun(*args)
+        fun(**kwargs)
         print("byyy")
     return wraper
 @decorator
-def sum(a,b,c):
-    print(a+b+c)
-sum(10,20,9)
+def sum(name,age,place):
+    print(name,age,place)
+sum(name="safaa",age=20,place="koramkode")
 
 
 
