@@ -1118,15 +1118,28 @@
 
 
 
-def decorator(fun):
-    def wraper():
-        print("before codeee")
+# def decorator(fun):
+#     def wraper():
+#         print("before codeee")
 
-        fun()
-        print("after function")
+#         fun()
+#         print("after function")
     
+#     return wraper
+# @decorator
+# def hello():
+#     print("hellooooo")
+# hello()
+
+
+
+def decorator(fun):
+    def wraper(*args):
+        print("1111111")
+        fun(*args)
+        print("2222222222")
     return wraper
 @decorator
-def hello():
-    print("hellooooo")
-hello()
+def hello(name,age):
+    print(f"my name is {name} ,my age is {age}")
+hello("safa",20)
