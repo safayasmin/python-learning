@@ -1109,11 +1109,24 @@
 # x=hello
 # x()
 
+
+# def hello():
+#     print("kooiiii")
+# def display(fun):
+#     fun()
+# display(hello)
+
+
+
+def decorator(fun):
+    def wraper():
+        print("before codeee")
+
+        fun()
+        print("after function")
+
+    return wraper
 def hello():
-    print("kooiiii")
-def display(fun):
-    fun()
-display(hello)
-
-
-
+    print("hellooooo")
+hello=decorator(hello)
+hello()
