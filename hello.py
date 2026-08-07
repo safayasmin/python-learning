@@ -1124,9 +1124,9 @@ def decorator(fun):
 
         fun()
         print("after function")
-
+    
     return wraper
+@decorator
 def hello():
     print("hellooooo")
-hello=decorator(hello)
 hello()
