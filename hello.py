@@ -1244,25 +1244,25 @@
 # s.safa()
 
 
-num=11
-for i in range(2,num):
-    if num%i==0:
-        print("not a prime")
-        break
-else:
-        print("prime")
+# num=11
+# for i in range(2,num):
+#     if num%i==0:
+#         print("not a prime")
+#         break
+# else:
+#         print("prime")
 
      
-# num=[1,4,2,5,3,8,9]
-# for number in num:
-#     if number<=1:
-#         print(number ,"not a prime")
-#         continue
-#     for i in range(2,number):
-#         if number%i==0:
-#             print(number ,"not prime")
-#             break
-#     else:
-#         print(number, "prime")
+num=[1,4,2,5,3,8,9]
+for number in num:
+    if number<=1:
+        print(number ,"not a prime")
+        continue
+    for i in range(2,number):
+        if number%i==0:
+            print(number ,"not prime")
+            break
+    else:
+        print(number, "prime")
      
 
