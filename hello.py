@@ -1145,16 +1145,22 @@
 # hello("safa",20)
 
 
-def decorator(fun):
-    def wraper(**kwargs):
-        print("koiii")
-        fun(**kwargs)
-        print("byyy")
-    return wraper
-@decorator
-def sum(name,age,place):
-    print(name,age,place)
-sum(name="safaa",age=20,place="koramkode")
+# def decorator(fun):
+#     def wraper(**kwargs):
+#         print("koiii")
+#         fun(**kwargs)
+#         print("byyy")
+#     return wraper
+# @decorator
+# def sum(name,age,place):
+#     print(name,age,place)
+# sum(name="safaa",age=20,place="koramkode")
 
+
+class student:
+    def __str__(self):
+        return "hellooo"
+s=student()
+print(s)
 
 
