@@ -1133,13 +1133,28 @@
 
 
 
+# def decorator(fun):
+#     def wraper(*args):
+#         print("1111111")
+#         fun(*args)
+#         print("2222222222")
+#     return wraper
+# @decorator
+# def hello(name,age):
+#     print(f"my name is {name} ,my age is {age}")
+# hello("safa",20)
+
+
 def decorator(fun):
     def wraper(*args):
-        print("1111111")
+        print("koiii")
         fun(*args)
-        print("2222222222")
+        print("byyy")
     return wraper
 @decorator
-def hello(name,age):
-    print(f"my name is {name} ,my age is {age}")
-hello("safa",20)
+def sum(a,b,c):
+    print(a+b+c)
+sum(10,20,9)
+
+
+
