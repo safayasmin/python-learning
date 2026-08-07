@@ -1104,9 +1104,16 @@
 # dev()
 
 
+# def hello():
+#     print("hello11")
+# x=hello
+# x()
+
 def hello():
-    print("hello11")
-x=hello
-x()
+    print("kooiiii")
+def display(fun):
+    fun()
+display(hello)
+
 
 
