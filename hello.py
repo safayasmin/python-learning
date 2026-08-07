@@ -1095,14 +1095,18 @@
 
 
 
-def outer():
-    message="helloo"
-    def inner():
-        print(message)
-    return inner
-dev=outer()
-dev()
+# def outer():
+#     message="helloo"
+#     def inner():
+#         print(message)
+#     return inner
+# dev=outer()
+# dev()
 
 
+def hello():
+    print("hello11")
+x=hello
+x()
 
 
