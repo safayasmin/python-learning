@@ -1164,10 +1164,36 @@
 # print(s)
 
 
-class student:
-    def __init__(self,name):
-        self.name=name
-        print(self.name)
+# class student:
+#     def __init__(self,name):
+#         self.name=name
+#         print(self.name)
 
-s=student("safffa")
+# s=student("safffa")
+
+# class student:
+#     def __init__(self,num):
+#         self.num=num
+#     def __add__(self,value):
+#         return self.num+value.num
+# s1=student(20)
+# s2=student(10)
+# print(s1+s2)
+
+
+# class student:
+#     def __add__(self,a,b):
+#         return a+b
+
+# s1=student()
+# print(s1.__add__(10,20))
+
+
+class student:
+    def __len__(self):
+        return 1000
+s=student()
+print(len(s))
+    
+
 
