@@ -1206,8 +1206,37 @@
 # print(s==s2)
 
 
-def change(nums):
-    nums.append(40)
-    return nums
-print(change([1,2,3,4]))
+# def change(nums):
+#     nums.append(40)
+#     return nums
+# print(change([1,2,3,4]))
 
+
+# def message():
+#     return 10
+# val=message()
+# print(val)
+
+# def message(name):
+#     print("heloo",name)
+# message("safa")
+   
+
+
+# def add(a,b):
+#     return a+b
+# print(add(10,20))
+
+# def square(a):
+#     return a*a
+# print(square(5))
+
+class student:
+    def safa(self):
+        print("hello safaaa")
+def shifa(self):
+    print("koiiiii")
+student.safa=shifa
+
+s=student()
+s.safa()
