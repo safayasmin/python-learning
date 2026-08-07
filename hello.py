@@ -1189,11 +1189,20 @@
 # print(s1.__add__(10,20))
 
 
-class student:
-    def __len__(self):
-        return 1000
-s=student()
-print(len(s))
+# class student:
+#     def __len__(self):
+#         return 1000
+# s=student()
+# print(len(s))
     
+
+class student:
+    def __init__(self,age):
+        self.age=age
+    def __eq__(self,other):
+        return self.age==other.age
+s=student(20)
+s2=student(20)
+print(s==s2)
 
 
