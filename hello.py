@@ -1196,13 +1196,18 @@
 # print(len(s))
     
 
-class student:
-    def __init__(self,age):
-        self.age=age
-    def __eq__(self,other):
-        return self.age==other.age
-s=student(20)
-s2=student(20)
-print(s==s2)
+# class student:
+#     def __init__(self,age):
+#         self.age=age
+#     def __eq__(self,other):
+#         return self.age==other.age
+# s=student(20)
+# s2=student(20)
+# print(s==s2)
 
+
+def change(nums):
+    nums.append(40)
+    return nums
+print(change([1,2,3,4]))
 
