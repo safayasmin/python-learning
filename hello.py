@@ -1157,10 +1157,17 @@
 # sum(name="safaa",age=20,place="koramkode")
 
 
-class student:
-    def __str__(self):
-        return "hellooo"
-s=student()
-print(s)
+# class student:
+#     def __str__(self):
+#         return "hellooo"
+# s=student()
+# print(s)
 
+
+class student:
+    def __init__(self,name):
+        self.name=name
+        print(self.name)
+
+s=student("safffa")
 
