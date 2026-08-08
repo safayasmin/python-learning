@@ -1509,17 +1509,75 @@
 # res=text.endswith("saf11")
 # print(res)
 
-student = {
-    "name": "Safa",
-    "age": 19,
-    "course": "Python",
-    "marks": 95
-}
+
+
+# student = {
+#     "name": "Safa",
+#     "age": 19,
+#     "course": "Python",
+#     "marks": 95
+# }
 # print(student.keys())
 # print(student.values())
+# print(student.get("email"))
+# student.update({"place":"malappuram"})
+# student.update({"marks":98})
+# student.pop("age")
 # print(student.items())
-print(student.get("email"))
-student.update({"place":"malappuram"})
-student.update({"marks":98})
-student.pop("age")
-print(student.items())
+
+
+# marks = {
+#     "Safa": 95,
+#     "Amina": 82,
+#     "Rahul": 67,
+#     "Arjun": 45,
+#     "Fathima": 90
+# }
+# for name,score in marks.items():
+#     if score>=80:
+#         print(name ,score)
+
+
+# student = {
+#     "name": "Safa",
+#     "age": 19,
+#     "course": "Python",
+#     "marks": 95,
+#     "place": "Malappuram",
+#     "email":"safa@gmail.com"
+# }
+
+# print(len(student))
+# if "email" in student:
+#     print(student["email"])
+# else:
+#     print("not email")
+
+
+# student = {
+#     "name": "Safa",
+#     "age": 19,
+#     "course": "Python",
+#     "marks": 95
+# }
+# student.update({"place": "Malappuram"})
+# student.update({"phone": "9876543210"})
+# student.update({"marks":98})
+# student.pop("age")
+# for key,value in student.items():
+#     print(key,value)
+
+
+
+student = {
+    "name": "Safa Yasmin",
+    "course": "Python Programming",
+    "place": "malappuram"
+}
+print("name is ", student["name"].upper())
+print(student["course"].lower())
+print(student["place"].capitalize())
+print(len(student["name"]))
+print(student["course"].startswith("Python"))
+print(student["course"].replace("Programming","Development"))
+
