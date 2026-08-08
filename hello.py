@@ -1407,7 +1407,91 @@
 # print(square)
 
 
-numbers = [[1, 2], [3, 4], [5, 6]]
-for group in numbers:
-    for i in group:
-        print(i)
+# numbers = [[1, 2], [3, 4], [5, 6]]
+# for group in numbers:
+#     for i in group:
+#         print(i)
+
+
+# student = ("Safa", 19, "Python")
+# name,age,course=student
+# print("name is :",name)
+# print("age is :",age)
+# print("course is :",course)
+
+# data = (10, (20, 30), (40, 50))
+# print(data[1][1])
+# print(data[2][1])
+
+
+# a={1,2,3,4}
+# b={1,2,3,4,5,6,7}
+# print(a.issubset(b))
+
+# numbers = [1, 2, 2, 3, 3, 4, 5, 5]
+# print(set(numbers))
+
+
+# students_python = {"Safa", "Amina", "Rahul", "Arjun"}
+# students_java = {"Rahul", "Arjun", "Fathima"}
+# print(students_python.intersection(students_java))
+
+
+# numbers = [10, 20, 30, 40]
+# print(tuple(numbers))
+
+
+# a = [1, 2, 3]
+# b = a
+# c = a.copy()
+# b.append(4)
+# c.append(5)
+# print(a)
+# print(b)
+# print(c)
+
+
+# a = [1, 2, 3]
+# b = a
+# a += [4]
+# print(a)
+# print(b)
+
+
+# a = [1, 2, [3, 4]]
+# b = a.copy()
+# b[2].append(5)
+
+# print(a)
+# print(b)
+
+# a = [10, 20, [30, 40]]
+# b = a.copy()
+
+# b[2].append(50)
+
+# print(a)
+# print(b)
+
+# numbers = [10, 20, 30, 40, 50, 60]
+# a = numbers[1:5]
+# b = a[::-1]
+# print(a)
+# print(b)
+
+
+# student = {
+#     "name": "Safa",
+#     "age": 19,
+#     "course": "Python",
+#     "marks": 90
+# }
+# student.fromkeys(["name","place"],None)
+# print(student)
+
+
+text="Safa yaasmin puu"
+res=text.split(" ")
+print(res)
+s=" ".join(res)
+print(s)
