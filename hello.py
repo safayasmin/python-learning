@@ -1569,15 +1569,100 @@
 
 
 
-student = {
-    "name": "Safa Yasmin",
-    "course": "Python Programming",
-    "place": "malappuram"
-}
-print("name is ", student["name"].upper())
-print(student["course"].lower())
-print(student["place"].capitalize())
-print(len(student["name"]))
-print(student["course"].startswith("Python"))
-print(student["course"].replace("Programming","Development"))
+# student = {
+#     "name": "Safa Yasmin",
+#     "course": "Python Programming",
+#     "place": "malappuram"
+# }
+# print("name is ", student["name"].upper())
+# print(student["course"].lower())
+# print(student["place"].capitalize())
+# print(len(student["name"]))
+# print(student["course"].startswith("Python"))
+# print(student["course"].replace("Programming","Development"))
+
+
+# text = "Python is easy and Python is powerful"
+# print(text.count("Python"))
+# print(text.index("Python"))
+# print(text.replace("Python","java"))
+# print(text.split())
+# print(text.endswith("powerful"))
+
+
+# text = "Python Programming"
+# count=0
+# consonent=0
+# for i in text:
+#     if i in "aeiou":
+#         count=count+1
+#     else:
+#         consonent=consonent+1
+# print(count)
+# print(consonent)
+# print(text.replace(" ",""))
+
+
+
+# text = "  Python Programming  "
+# print(text.strip())
+# print(text.upper())
+# print(text.title())
+# print(text.find("Program"))
+# print(text.count("m"))
+# print(text.startswith("Python"))
+
+
+# text = "python123"
+# print(text.islower())
+
+
+# students = {
+#     "s1": "Safa Yasmin",
+#     "s2": "Amina",
+#     "s3": "Rahul",
+#     "s4": "Fathima"
+# }
+
+# for name in students.values():
+#     if len(name)>5:
+#         print(name)
+
+
+# text = "Python Python Java Python"
+# words = text.split()
+# print(words)
+# print(len(words))
+# print(words.count("Python"))
+# print(words.index("Java"))
+
+
+# def greet(name):
+#     print("hello",name)
+#     print("welcome to python")
+# greet("safa")
+
+# def calculate_sum(a,b):
+#    return a+b
+# print(calculate_sum(10,20))
+
+# def greet(name, message="Welcome to Python"):
+#    print("hello",name)
+#    print(message)
+# greet("safa")
+
+
+# def calculate(*args):
+#     total=0
+#     for num in args:
+#         total += num
+#     print("sum is",total)
+    
+# calculate(10,20,30)
+
+text="safa yasmin hello"
+res=text.split()
+
+for str in res:
+    print(str[::-1])
 
