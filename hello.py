@@ -1268,16 +1268,28 @@
 #         print(number, "prime")
 
 
-def safa(n):
-    if(n<=1):
-        return 1
-    else:
-        return n+safa(n-1)
 
-print(safa(10))
-
-    
+# def safa(n):
+#     if(n<=1):
+#         return 1
+#     else:
+#         return n+safa(n-1)
+# print(safa(10))
      
 
+# import math
+# print(math.sqrt(25))
+
+# age=20
+# if age>=18:
+#     print("safaaaa")
+
+#     if age<=20:
+#         print("sjkkkk")
 
 
+count=0
+while count<=3:
+    print(count)
+    count=count+1
+print("done")
