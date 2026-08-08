@@ -1277,6 +1277,17 @@
 # print(safa(10))
      
 
+
+
+
+
+
+
+
+
+
+
+
 # import math
 # print(math.sqrt(25))
 
@@ -1288,8 +1299,115 @@
 #         print("sjkkkk")
 
 
-count=0
-while count<=3:
-    print(count)
-    count=count+1
-print("done")
+# count=0
+# while count<=3:
+#     print(count)
+#     count=count+1
+# print("done")
+
+# a=b=c=100
+# print(a,b,c)
+
+
+# a=100
+# b=200
+# a,b=b,a
+# print(a)
+
+# name=input("enter your name")
+# print(name)
+
+
+
+# num=[1,2,3,4]
+# for i in num:
+#     print(i)
+
+
+# student={
+#     "name":"safaa",
+#     "age":20
+# }
+# print(student["name"])
+
+# age="20"
+# print(int(age)+10)
+
+
+# a = [10, 20, 30]
+# b = a
+# b.append(40)
+# print(a)
+# print(b)
+
+
+# a = [10, 20, 30]
+# b = a.copy()
+# b.append(40)
+# print(a)
+# print(b)
+
+
+# a = "Python"
+# b = a
+# b += " Programming"
+# print(a)
+# print(b)
+
+
+# list1 = [10,20,30]
+# list2=list1
+# list2.append(40)
+# for i in list1:
+#     print(i)
+# for i in list2:
+#     print(i)
+
+# list1 = [1, 2, 3]
+# list2 = list1
+
+# print(id(list1) == id(list2))
+
+# list2 = [1, 2, 3]
+
+# print(id(list1) == id(list2))
+
+# a = (10, 20, [30, 40])
+# a[2].append(50)
+# print(a)
+
+
+# a = (10, 20, [30, 40])
+# a[2] = [50, 60]
+# print(a)
+
+# str="madam1"
+# r=str[::-1]
+# if str==r:
+#     print("palindrom")
+# else:
+#     print("not palindrom")
+
+
+
+# numbers = [1, 2, 2, 3, 4, 4, 5]
+# unique=list(set(numbers))
+# print(unique)
+
+# numbers = [10,67,45, 23, 67, 12]
+# numbers.sort(reverse=True)
+# if numbers[0]==numbers[1]:
+#     print(numbers[2])
+# else:
+#     print(numbers[1])
+
+
+# numbers = [1, 2, 3, 4, 5]
+# square=[n*n for n in numbers]
+# print(square)
+
+
+numbers = [[1, 2], [3, 4], [5, 6]]
+for group in numbers:
+    for i in group:
+        print(i)
