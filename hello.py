@@ -1490,8 +1490,36 @@
 # print(student)
 
 
-text="Safa yaasmin puu"
-res=text.split(" ")
-print(res)
-s=" ".join(res)
-print(s)
+# text="Safa yaasmin puu"
+# res=text.split(" ")
+# print(res)
+# s=" ".join(res)
+# print(s)
+
+# text="python is very easy"
+# res=text.find("very1")
+# print(res)
+
+
+# text="safa yasmin"
+# res=text.count("a")
+# print(res)
+
+# text="safa yasmin"
+# res=text.endswith("saf11")
+# print(res)
+
+student = {
+    "name": "Safa",
+    "age": 19,
+    "course": "Python",
+    "marks": 95
+}
+# print(student.keys())
+# print(student.values())
+# print(student.items())
+print(student.get("email"))
+student.update({"place":"malappuram"})
+student.update({"marks":98})
+student.pop("age")
+print(student.items())
