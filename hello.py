@@ -1660,9 +1660,123 @@
     
 # calculate(10,20,30)
 
-text="safa yasmin hello"
-res=text.split()
+# text="safa yasmin hello"
+# res=text.split()
 
-for str in res:
-    print(str[::-1])
+# for str in res:
+#     print(str[::-1])
+
+
+# def student_info(**kwargs):
+#     for key,val in kwargs.items():
+#         print(key ,":",val)
+
+# student_info(
+#     name="safa",
+#     age=19,
+#     course="python"
+# ) 
+
+# a=[1,2]
+# b=a
+# print(a is b)
+
+# fruits = ["apple", "banana", "mango", "orange"]
+
+# print("mango" in fruits)
+# print("grape" in fruits)
+
+# numbers = [10, 20, 30, 40, 50]
+
+# print(25 not in numbers)
+# print(30 not in numbers)
+
+# a = [10, 20, 30]
+# b = a
+# c = [10, 20, 30]
+# print(20 in a)
+# print(40 in b)
+# print(a is b)
+# print(a is c)
+
+
+# a = [10, 20, [30, 40]]
+# b = a
+# c = a.copy()
+# print(30 in a)
+# print([30, 40] in a)
+# print(a is b)
+# print(a is c)
+# print(a[1] is c[1])
+
+
+# text="malayalam"
+# res=text[::-1]
+# if text==res:
+#     print("its a palindrom")
+# else:
+#     print("not a palindrom")
+
+
+# def student(*args, **kwargs):
+#     print(args,kwargs)
+# student(
+#     "Python",
+#     "JavaScript",
+#     name="Safa",
+#     age=19
+# )
+
+
+# def factorial(n):
+#     if n==1:
+#         return 1
+#     return n+factorial(n-1)
+# print(factorial(10))
+
+
+
+# def power(a, b):
+#     if b == 0:
+#         return 1
+#     return a ** b
+# print(power(2, 5))
+
+
+# def fabonacci(n):
+#     if n<=1:
+#         return n
+#     return fabonacci(n-1)+fabonacci(n-2)
+# print(fabonacci(10))
+
+
+# num=123
+# res=str(num)
+# revers=res[::-1]
+# print(int(revers))
+
+
+# larger=lambda x,y:x if x>y else y
+# print(larger(10,20))
+
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+# print(list(filter(lambda x:x%2==0 ,numbers)))
+
+# numbers = [1, 2, 3, 4, 5]
+# print(list(map(lambda x :x*x ,numbers)))
+
+
+marks = {
+    "Safa": 95,
+    "Amina": 72,
+    "Rahul": 88,
+    "Arjun": 45
+}
+print(list(filter(lambda x:x[1]>=80 ,marks.items())))
+
+
+
+
+
+    
 
