@@ -1812,15 +1812,27 @@
 # file.write("Hello Python11111111111")
 # file.close()
 
-class student:
-    def __init__(self,name,age,mark):
-        self.name=name
-        self.age=age
-        self.mark=mark
-    
-        print(self.name,self.age,self.mark)
 
-s1=student("safa",20,40)
+
+# class student:
+#     def __init__(self,name,age,mark):
+#         self.name=name
+#         self.age=age
+#         self.mark=mark
+#         print(self.name,self.age,self.mark)
+# s1=student("safa",20,40)
+
+
+class animal:
+    def eat(self):
+        print("animal is eating")
+class dog(animal):
+    def bark(self):
+        print("dog is barking")
+
+d=dog()
+d.eat()
+d.bark()
 
     
 
