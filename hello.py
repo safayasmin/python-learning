@@ -1766,13 +1766,20 @@
 # print(list(map(lambda x :x*x ,numbers)))
 
 
-marks = {
-    "Safa": 95,
-    "Amina": 72,
-    "Rahul": 88,
-    "Arjun": 45
-}
-print(list(filter(lambda x:x[1]>=80 ,marks.items())))
+# marks = {
+#     "Safa": 95,
+#     "Amina": 72,
+#     "Rahul": 88,
+#     "Arjun": 45
+# }
+# print(list(filter(lambda x:x[1]>=80 ,marks.items())))
+
+
+def greet(name):
+    print("function started")
+    print(f"hello {name}")
+greet("safa")
+
 
 
 
