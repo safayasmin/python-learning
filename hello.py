@@ -1836,19 +1836,28 @@
 
     
 
-class animal:
-    def sound(self):
-        print("animal make a sound")
-class dog(animal):
-    def sound(self):
-            super().sound()
-            print("dog bark")
-class cat(animal):
-     def sound(self):
-             super().sound()
-             print("cat meows")
-d=dog()
-d.sound()
-c=cat()
-c.sound()
+# class animal:
+#     def sound(self):
+#         print("animal make a sound")
+# class dog(animal):
+#     def sound(self):
+#             super().sound()
+#             print("dog bark")
+# class cat(animal):
+#      def sound(self):
+#              super().sound()
+#              print("cat meows")
+# d=dog()
+# d.sound()
+# c=cat()
+# c.sound()
+
+
+student={
+    "name":"safa",
+    "age":20,
+    "place":"malappuram"
+}
+revers=dict(reversed(student.items()))
+print(revers)
 
