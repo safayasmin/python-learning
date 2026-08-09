@@ -1775,14 +1775,35 @@
 # print(list(filter(lambda x:x[1]>=80 ,marks.items())))
 
 
-def greet(name):
-    print("function started")
-    print(f"hello {name}")
-greet("safa")
+# def greet(name):
+#     print("function started")
+#     print(f"hello {name}")
+# greet("safa")
 
 
 
+# try:
+#     num1=int(input("enter first num :"))
+#     num2=int(input("enter first num2 :"))
 
+#     result=num1/num2
+
+#     print("result :",result)
+# except ZeroDivisionError:
+#     print("cannot devided by zero")
+# finally:
+#     print("helo safa")
+
+
+class student:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+    def sum(self):
+        return self.a+self.b
+s=student(10,20)
+print(s.sum())
+        
 
 
     
