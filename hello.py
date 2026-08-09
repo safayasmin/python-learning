@@ -1804,10 +1804,23 @@
 # s=student(10,20)
 # print(s.sum())
 
-from  functools  import reduce
-add=lambda x,y:x+y
-print(add(10,20))        
+# from  functools  import reduce
+# add=lambda x,y:x+y
+# print(add(10,20))        
 
+# file = open("data.txt", "w")
+# file.write("Hello Python11111111111")
+# file.close()
+
+class student:
+    def __init__(self,name,age,mark):
+        self.name=name
+        self.age=age
+        self.mark=mark
+    
+        print(self.name,self.age,self.mark)
+
+s1=student("safa",20,40)
 
     
 
