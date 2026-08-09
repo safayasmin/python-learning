@@ -1862,10 +1862,15 @@
 # print(revers)
 
 
-student={
-    "name":"safa",
-    "education":"plus two",
-    "place":"malappuram"
-}
-s=dict(sorted(student.items(),key=lambda x:x[1]))
+# student={
+#     "name":"safa",
+#     "education":"plus two",
+#     "place":"malappuram"
+# }
+# s=dict(sorted(student.items(),key=lambda x:x[1]))
+# print(s)
+
+
+num=[1,2,3,4]
+s=[x*x for x in num]
 print(s)
