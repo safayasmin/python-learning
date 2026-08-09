@@ -1795,15 +1795,18 @@
 #     print("helo safa")
 
 
-class student:
-    def __init__(self,a,b):
-        self.a=a
-        self.b=b
-    def sum(self):
-        return self.a+self.b
-s=student(10,20)
-print(s.sum())
-        
+# class student:
+#     def __init__(self,a,b):
+#         self.a=a
+#         self.b=b
+#     def sum(self):
+#         return self.a+self.b
+# s=student(10,20)
+# print(s.sum())
+
+from  functools  import reduce
+add=lambda x,y:x+y
+print(add(10,20))        
 
 
     
