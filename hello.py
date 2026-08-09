@@ -1823,16 +1823,32 @@
 # s1=student("safa",20,40)
 
 
-class animal:
-    def eat(self):
-        print("animal is eating")
-class dog(animal):
-    def bark(self):
-        print("dog is barking")
+# class animal:
+#     def eat(self):
+#         print("animal is eating")
+# class dog(animal):
+#     def bark(self):
+#         print("dog is barking")
 
-d=dog()
-d.eat()
-d.bark()
+# d=dog()
+# d.eat()
+# d.bark()
 
     
+
+class animal:
+    def sound(self):
+        print("animal make a sound")
+class dog(animal):
+    def sound(self):
+            super().sound()
+            print("dog bark")
+class cat(animal):
+     def sound(self):
+             super().sound()
+             print("cat meows")
+d=dog()
+d.sound()
+c=cat()
+c.sound()
 
