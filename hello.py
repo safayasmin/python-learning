@@ -1853,11 +1853,19 @@
 # c.sound()
 
 
+# student={
+#     "name":"safa",
+#     "age":20,
+#     "place":"malappuram"
+# }
+# revers=dict(reversed(student.items()))
+# print(revers)
+
+
 student={
     "name":"safa",
-    "age":20,
+    "education":"plus two",
     "place":"malappuram"
 }
-revers=dict(reversed(student.items()))
-print(revers)
-
+s=dict(sorted(student.items(),key=lambda x:x[1]))
+print(s)
