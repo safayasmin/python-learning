@@ -2034,19 +2034,26 @@
 
 
 
-text="safa yasmin p"
-t=text.split()
-large=0
-lword=""
-for i in t:
-    count=0
-    for val in i:
-        count=count+1
-    if count>large:
-        large=count
-        lword=i
-print(large)
-print(lword)
+# text="safa yasmin p"
+# t=text.split()
+# large=0
+# lword=""
+# for i in t:
+#     count=0
+#     for val in i:
+#         count=count+1
+#     if count>large:
+#         large=count
+#         lword=i
+# print(large)
+# print(lword)
+
+
+num=[1,2,3,4,3,2,8]
+res=set(num)
+print(list(res))
+    
+
     
 
 
