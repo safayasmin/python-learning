@@ -2025,9 +2025,31 @@
 #     print("not a palindrom")
 
 
-text="helloiiie"
-count=0
-for i in text:
-    if i in "aeiou":
+# text="helloiiie"
+# count=0
+# for i in text:
+#     if i in "aeiou":
+#         count=count+1
+# print(count)
+
+
+
+text="safa yasmin p"
+t=text.split()
+large=0
+lword=""
+for i in t:
+    count=0
+    for val in i:
         count=count+1
-print(count)
+    if count>large:
+        large=count
+        lword=i
+print(large)
+print(lword)
+    
+
+
+    
+
+
