@@ -1995,12 +1995,39 @@
 #     print("helloo")
 # greet()
 
-num=1
-if num<=1:
-    print("not a prime")
+# num=1
+# if num<=1:
+#     print("not a prime")
 
-for i in range(2,num):
-    if num%i==0:
-        print("not a prime")
-    else:
-        print("prime")
+# for i in range(2,num):
+#     if num%i==0:
+#         print("not a prime")
+#     else:
+#         print("prime")
+
+
+# text="safaa"
+# print(text[::-1])
+
+
+
+# num=[1,2,3,4,5]
+# num.reverse()
+# print(num)
+
+
+
+# text="malayalam"
+# rev=text[::-1]
+# if text==rev:
+#     print("palindrom")
+# else:
+#     print("not a palindrom")
+
+
+text="helloiiie"
+count=0
+for i in text:
+    if i in "aeiou":
+        count=count+1
+print(count)
