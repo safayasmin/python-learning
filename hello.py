@@ -1915,11 +1915,16 @@
 # print(s+s2)
 
 
-li1 = [1, 2, 3, 4, 5]
-li2 = [4, 5, 6, 7, 8]
-res1=set(li1)
-res2=set(li2)
-res=res1.intersection(res2)
-r=list(res)
-print(r)
+# li1 = [1, 2, 3, 4, 5]
+# li2 = [4, 5, 6, 7, 8]
+# res1=set(li1)
+# res2=set(li2)
+# res=res1.intersection(res2)
+# r=list(res)
+# print(r)
 
+
+
+num=[1,2,3,4,5,6]
+res=map(lambda x:"even" if x%2==0 else "odd" ,num)
+print(list(res))
