@@ -1934,14 +1934,73 @@
 # res=reduce()
 
 
-def decorator(fun):
-    def wraper(a,b):
-        print("helloo")
-        fun(a,b)
-        print(a+b)
-        print("koooiiii")
-    return wraper
-@decorator
-def mul(a,b):
-    print(a*b)
-mul(10,10)
+# def decorator(fun):
+#     def wraper(a,b):
+#         print("helloo")
+#         fun(a,b)
+#         print(a+b)
+#         print("koooiiii")
+#     return wraper
+# @decorator
+# def mul(a,b):
+#     print(a*b)
+# mul(10,10)
+
+
+
+# text="hello safaaa yasmin"
+# res=text.split()
+# print(res)
+# for i in res:
+#     print(i[::-1] ,end=" ")
+
+
+# a=[1,2,3,4,5,6,8,2,3,5]
+# print(a[2:8:2])
+
+# a=[1,2,3]
+# b=[[1,2,3],2]
+# print(a==b)
+# print(a is b)
+# print(a in b)
+
+# a=[1]
+# b=[[1],2,3,4]
+# print(a in b)
+
+# a = [1, 2]
+# b = [[1, 2], [3, 4]]
+# print(a in b)
+
+# student = {
+#     "name": "Safa",
+#     "age": 20
+# }
+
+# key = "name"
+# value = "Safa"
+
+# print(key in student)
+# print(value in student)
+# print(key is "name")
+
+
+# def decorator(fun):
+#     def wraper():
+#         fun()
+#         print("Have a nice day!")
+#     return wraper
+# @decorator
+# def greet():
+#     print("helloo")
+# greet()
+
+num=1
+if num<=1:
+    print("not a prime")
+
+for i in range(2,num):
+    if num%i==0:
+        print("not a prime")
+    else:
+        print("prime")
