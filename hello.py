@@ -1879,6 +1879,27 @@
 # print(list(filter(lambda x:x%2==0 ,num)))
 
 
-num1=[1,2,3,4]
-num2=[5,6,7,8]
-print(num1+num2)
+# num1=[1,2,3,4]
+# num2=[5,6,7,8]
+# print(num1+num2)
+
+
+# def decorator(fun):
+#     def wraper():
+#         print("hello safa")
+#         fun()
+#         print("koooiiiii")
+#     return wraper
+# @decorator
+# def hello():
+#     print("hello")
+# hello()
+
+
+class student:
+    def __init__(self,name):
+        self.name=name
+    def __str__(self):
+        return f"name is :{self.name}"
+s=student("hassan")
+print(s)
