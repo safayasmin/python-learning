@@ -1925,6 +1925,23 @@
 
 
 
-num=[1,2,3,4,5,6]
-res=map(lambda x:"even" if x%2==0 else "odd" ,num)
-print(list(res))
+# num=[1,2,3,4,5,6]
+# res=map(lambda x:"even" if x%2==0 else "odd" ,num)
+# print(list(res))
+
+# from functools import reduce
+# num=[1,2,3,4,5]
+# res=reduce()
+
+
+def decorator(fun):
+    def wraper(a,b):
+        print("helloo")
+        fun(a,b)
+        print(a+b)
+        print("koooiiii")
+    return wraper
+@decorator
+def mul(a,b):
+    print(a*b)
+mul(10,10)
