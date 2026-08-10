@@ -1896,10 +1896,30 @@
 # hello()
 
 
-class student:
-    def __init__(self,name):
-        self.name=name
-    def __str__(self):
-        return f"name is :{self.name}"
-s=student("hassan")
-print(s)
+# class student:
+#     def __init__(self,name):
+#         self.name=name
+#     def __str__(self):
+#         return f"name is :{self.name}"
+# s=student("hassan")
+# print(s)
+
+
+# class add:
+#     def __init__(self,value):
+#         self.value=value
+#     def __add__(self,other):
+#         return self.value+other.value
+# s=add(10)
+# s2=add(20)
+# print(s+s2)
+
+
+li1 = [1, 2, 3, 4, 5]
+li2 = [4, 5, 6, 7, 8]
+res1=set(li1)
+res2=set(li2)
+res=res1.intersection(res2)
+r=list(res)
+print(r)
+
