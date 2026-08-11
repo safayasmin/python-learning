@@ -2082,6 +2082,7 @@
 # s1=Student("safaa",30)
 
 
+
 class Student:
     def __init__(self,name):
         self.name=name
