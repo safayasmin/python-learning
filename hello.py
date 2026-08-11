@@ -2083,13 +2083,24 @@
 
 
 
+# class Student:
+#     def __init__(self,name):
+#         self.name=name
+#     def greet(self):
+#         print("helloo",self.name)
+# s=Student("safa")
+# s.greet()
+
+
+
 class Student:
     def __init__(self,name):
         self.name=name
-    def greet(self):
-        print("helloo",self.name)
 s=Student("safa")
-s.greet()
+s2=Student("shifaa")
+print(s.name)
+print(s2.name)
+
 
     
 
