@@ -2126,15 +2126,36 @@
 # s=Student()
 # s.show()
 
+# class Student:
+#     school="abc"
+#     @classmethod
+#     def changeschool(cls):
+#         print(cls.school)
+# Student.changeschool()
+
+
+# class Student:
+#     school = "ABC"
+#     @staticmethod
+#     def show():
+#         print(Student.school)
+
+# Student.show()
+
+
+
 class Student:
-    school="abc"
-    @classmethod
-    def changeschool(cls):
-        print(cls.school)
-Student.changeschool()
+    def safa(self):
+        print("helloooooo")
 
-
-
+class Shifa(Student):
+    def sachu(self):
+        print("kooiiii")
+s=Student()
+s.safa()
+s=Shifa()
+s.sachu()
+s.safa()
 
 
     
