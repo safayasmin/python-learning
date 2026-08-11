@@ -2074,13 +2074,21 @@
 # d.sound()
 
 
-class Student:
-    def __init__(self,name,age):
-        self.name=name
-        self.age=age
-        print(f"name is {self.name} age is {self.age}")
-s1=Student("safaa",30)
+# class Student:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#         print(f"name is {self.name} age is {self.age}")
+# s1=Student("safaa",30)
 
+
+class Student:
+    def __init__(self,name):
+        self.name=name
+    def greet(self):
+        print("helloo",self.name)
+s=Student("safa")
+s.greet()
 
     
 
