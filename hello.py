@@ -2064,14 +2064,22 @@
 # safa("shahma",30)
 
 
-class dog:
-    def sound(slef):
-        print("bark")
-def cat(self):
-    print("meowe")
-dog.sound=cat
-d=dog()
-d.sound()
+# class dog:
+#     def sound(slef):
+#         print("bark")
+# def cat(self):
+#     print("meowe")
+# dog.sound=cat
+# d=dog()
+# d.sound()
+
+
+class Student:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        print(f"name is {self.name} age is {self.age}")
+s1=Student("safaa",30)
 
 
     
