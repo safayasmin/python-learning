@@ -2048,10 +2048,32 @@
 # print(large)
 # print(lword)
 
+# def dectnery(fun):
+#     def wrapper(name,age):
+#         fun()
+#         print(f"name is {name} age is {age}")
+#     return wrapper
+# @dectnery
+# def greet():
+#     print("hello safaa")
+# greet("safa",20)
 
-num=[1,2,3,4,3,2,8]
-res=set(num)
-print(list(res))
+
+# def safa(name,age):
+#     print(f"name is {name} age is {age}")
+# safa("shahma",30)
+
+
+class dog:
+    def sound(slef):
+        print("bark")
+def cat(self):
+    print("meowe")
+dog.sound=cat
+d=dog()
+d.sound()
+
+
     
 
     
