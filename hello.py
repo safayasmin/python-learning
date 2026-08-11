@@ -2098,6 +2098,7 @@ class Student:
         self.name=name
 s=Student("safa")
 s2=Student("shifaa")
+s.name="anu"
 print(s.name)
 print(s2.name)
 
