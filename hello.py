@@ -2093,14 +2093,41 @@
 
 
 
+# class Student:
+#     def __init__(self,name):
+#         self.name=name
+# s=Student("safa")
+# s2=Student("shifaa")
+# s.name="anu"
+# print(s.name)
+# print(s2.name)
+
+
+
+
+# class Student:
+#     school="abc"
+#     def __init__(self,name):
+#         self.name=name
+# Student.school="hdjsss"
+# s=Student("safaaa")
+# s2=Student("sachuuuu")
+# print(s.name)
+# print(s2.name)
+# print(s.school)
+# print(s2.school)
+
+
 class Student:
-    def __init__(self,name):
-        self.name=name
-s=Student("safa")
-s2=Student("shifaa")
-s.name="anu"
-print(s.name)
-print(s2.name)
+    x=10
+    def show(self):
+        x=100
+    print(x)
+s=Student()
+s.show()
+
+
+
 
 
     
