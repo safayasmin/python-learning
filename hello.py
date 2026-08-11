@@ -2118,13 +2118,20 @@
 # print(s2.school)
 
 
+# class Student:
+#     x=10
+#     def show(self):
+#         x=100
+#     print(x)
+# s=Student()
+# s.show()
+
 class Student:
-    x=10
-    def show(self):
-        x=100
-    print(x)
-s=Student()
-s.show()
+    school="abc"
+    @classmethod
+    def changeschool(cls):
+        print(cls.school)
+Student.changeschool()
 
 
 
