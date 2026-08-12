@@ -2410,10 +2410,22 @@
 # res=math.sqrt(16)
 # print(res)
 
+
+
+# class Student:
+#     def __init__(self,name):
+#         self.name=name
+#     def display(self):
+#         print("hello",self.name)
+# s=Student("shahamaan")
+# s.display()
+
+
 class Student:
-    def __init__(self,name):
-        self.name=name
-    def display(self):
-        print("hello",self.name)
-s=Student("shahamaan")
-s.display()
+    school = "ABC"
+
+    @staticmethod
+    def show():
+        print(Student.school)
+
+Student.show()
