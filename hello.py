@@ -2144,25 +2144,276 @@
 
 
 
+# class Student:
+#     def safa(self):
+#         print("helloooooo")
+
+# class Shifa(Student):
+#     def sachu(self):
+#         print("kooiiii")
+# s=Student()
+# s.safa()
+# s=Shifa()
+# s.sachu()
+# s.safa()
+
+
+
+
+# class Father:
+#     def hassan(self):
+#         print("i am safa yasmin")
+
+# class Mother(Father):
+#     def Sabira(self):
+#         print("i am sabira")
+
+# class Child(Mother):
+#     def Safa(self):
+#         print("i am safa yasmin")
+# c=Child()
+# c.hassan()
+# c.Sabira()
+# c.Safa()
+
+
+
+
+# class Father:
+#     def hassan(self):
+#         print("helloo hassa")
+# class Mother(Father):
+#     def hassan(self):
+#         super().hassan()
+#         print("hello sabiraaaaa")
+# m=Mother()
+# m.hassan()
+
+
+# class A:
+#     def show(self):
+#         print("A")
+
+# class B:
+#     def show(self):
+#         print("B")
+
+# class C(A, B):
+#     def show(self):
+#         print("c")
+
+# c = C()
+# c.show()
+
+
+# class Demo:
+#     def add(self,*numbers):
+#         print(numbers)
+# d=Demo()
+# d.add(10)
+# d.add(10,20)
+# d.add(10,20,30)
+
+
+
+# class demo:
+#     def __len__(self):
+#         return 100
+# d=demo()
+# print(len(d))
+
+
+
+
+# class Student:
+#     def __init__(self):
+#         self.name="safaa"
+#         self._age=20
+#         self.__mark=90
+
+#     def showmark(self):
+#         print(self.__mark)
+# s=Student()
+# print(s.name)
+# print(s._age)
+# s.showmark()
+
+
+
+# from abc import ABC,abstractmethod
+# class Animal(ABC):
+#     @abstractmethod
+#     def sound(self):
+#         print("khdddddjf")
+#     def hello(self):
+#         print("hddddddddddd99999")
+
+# class Dog(Animal):
+#     def sound(self):
+#         print("hellooo koooi")
+# d=Dog()
+# d.sound()
+# d.hello()
+
+
+
+# val=[1,2,3,4]
+# i=iter(val)
+# print(next(i))
+# print(next(i))
+
+
+# def num():
+#     yield 1
+#     yield 2
+#     yield 3
+# for i in num():
+#     print(i)    
+
+
+# count=1
+# while count<=5:
+#     print(count)
+#     count=count+1
+
+# a=10
+# b=20
+# a,b=b,a
+# print(a)
+
+
+
+# num=[1,2,3,5]
+# res=num.extend(30)
+# print(res)
+    
+
+# for i in range(1,6):
+#     print(i)
+
+   
+# for i in range(10):
+#     if i==6:
+#         continue
+#     print(i)
+
+# student={
+#     "name":"safa"
+# }
+# student["age"]=30
+# print(student)
+
+     
+
+# t={1,2,3,5}
+# t.add(8)
+# print(t)
+
+# items = []
+# print(items)
+
+# fruits = ["Apple","jek"]
+
+# fruits.reverse()
+# print(fruits)
+
+# colors = {"Red", "Blue", "Green"}
+# colors.update(["nrk","mhekj"])
+# for color in colors:
+#     print(color)
+
+
+
+# a = {1, 2, 3}
+# x = a.pop()
+
+# print(x)
+# print(a)
+
+
+# s={2}
+# s.update({3,34,4})
+# print(s)
+
+# num=[1,2,3,4]
+# x=num.pop(2)
+# print(x)
+# print(num)
+
+
+# text="hello safaa"
+# res=text.split()
+# r=[]
+# for i in res:
+#     r.append(i[::-1])
+# result=" ".join(r)
+# print(result)
+
+# name = "Safa"
+
+# print("Hello " + name)
+
+
+# d={i:i*i for i in range(5)}
+# print(d)
+
+
+# student={
+#     "name":"safa",
+#     "age":30
+# }
+# print(student["name"])
+
+
+# def hello(n):
+#     if n==1:
+#         return
+#     print(n)
+#     hello(n-1)
+# hello(5)
+
+# from functools import reduce
+# num=[1,2,3,5,20]
+# print(reduce(lambda a,b :a+b ,num))
+
+# def add(a,b):
+#     return a+b
+# print(add(10,20))
+
+
+# students=[
+# ("Safa",85),
+# ("Rahul",90),
+# ("Anu",70)
+# ]
+# students.sort(key=lambda x:x[1],reverse=True)
+# print(students)
+
+
+# employees = [
+#     {"name": "Safa", "salary": 50000},
+#     {"name": "Rahul", "salary": 70000},
+#     {"name": "Anu", "salary": 60000},
+# ]
+# employees.sort(key=lambda x:x["salary"])
+# print(employees)
+
+
+# text="safa yasmin"
+# r=[]
+# for i in text.split():
+#     r.append(i[::-1])
+# res=" ".join(r)
+# print(res)
+    
+# import math
+# res=math.sqrt(16)
+# print(res)
+
 class Student:
-    def safa(self):
-        print("helloooooo")
-
-class Shifa(Student):
-    def sachu(self):
-        print("kooiiii")
-s=Student()
-s.safa()
-s=Shifa()
-s.sachu()
-s.safa()
-
-
-    
-
-    
-
-
-    
-
-
+    def __init__(self,name):
+        self.name=name
+    def display(self):
+        print("hello",self.name)
+s=Student("shahamaan")
+s.display()
