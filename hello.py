@@ -2421,11 +2421,199 @@
 # s.display()
 
 
-class Student:
-    school = "ABC"
+# class Student:
+#     school = "ABC"
 
-    @staticmethod
-    def show():
-        print(Student.school)
+#     @staticmethod
+#     def show():
+#         print(Student.school)
 
-Student.show()
+# Student.show()
+
+
+# class Student:
+
+#     def __str__(self):
+
+#         return "Student Object"
+# s=Student()
+# print(s)
+
+
+
+# names = ["safa", "python", "java"]
+# res=map(str.upper,names)
+# print(list(res))
+
+
+# names = ["Ali", "Safa", "Python", "AI"]
+# res=filter(lambda x:len(x)>4 ,names)
+# print(list(res))
+
+
+# names = ["safa", "python", "java"]
+# res=map(lambda x:x.upper() ,names)
+# print(list(res))
+
+
+# names = ["Safa", "Ali", "Sara"]
+# marks = [90, 80, 95]
+# res=zip(names,marks)
+# print(list(res))
+
+
+# def decorator(fun):
+#     def wraper(a,b):
+#         print(a*b)
+#         fun(2,3)
+#         print("hellooo")
+#     return wraper
+# @decorator
+# def add(a,b):
+#     print(a+b)
+# add(10,20)
+
+
+# numbers = [1, 2, 3, 4, 5]
+# res=map(lambda x:x*x ,numbers)
+# print(list(res))
+
+
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+# res=filter(lambda x:x%2==0 ,numbers)
+# print(list(res))
+
+# from functools import reduce
+# numbers = [1, 2, 3, 4, 5]
+# res=reduce(lambda x,y:x*y ,numbers)
+# print(res)
+
+# names = ["Safa", "Shifa", "Amina"]
+# for index,value in enumerate(names):
+#     print(index,value)
+
+
+# names = ["Safa", "Shifa", "Amina"]
+# marks = [95, 88, 92]
+# res=zip(names,marks)
+# print(list(res))
+
+
+# numbers = [5, 2, 8, 1, 3]
+# res=sorted(numbers ,reverse=True)
+# print(res)
+
+
+# numbers = [1, 2, 3, 4, 5]
+# numbers.reverse()
+# print(numbers)
+
+
+# num=[1,2,3,4]
+# res=any(x%2==0 for x in num)
+# print(res)
+
+# text = "I love Python"
+# print(text.count("P"))
+
+# a=[1,2,3,4]
+# b=[4,5,6,7]
+# a.extend(b)
+# print(a)
+
+
+# text = "   hello  safaa "
+# res=text.replace(" ","")
+# print(res)
+
+
+# text = "python is very easy"
+# word=text.split()
+# print(word)
+# res=[]
+# for i in word:
+#     res.append(i[::-1])
+# s=" ".join(res)
+# print(s)
+
+
+# text = "python programming is easy and python is powerful"
+# print(text.count("python"))
+
+
+# text = "hello world python"
+# w=text.split()
+# large=""
+# for i in w:
+#     if len(i)>len(large):
+#         large=i
+# print(large)
+
+
+# text = "safa python developer"
+# print(text.title())
+
+# text = "python is easy and python is powerful"
+# print(text.replace("python",""))
+
+
+# text = "hello123python456"
+# r=""
+# for i in text:
+#     if i.isalpha():
+#         r+=i
+# print(r)
+
+
+# text = "Safa Python Developer"
+# r=""
+# count=0
+# for i in text.lower():
+#     if i in "aeiou":
+#         count=count+1
+#         print(i)
+# print(count)
+
+
+
+# text = "python programming"
+# res=""
+# for i in text:
+#     if i not in res:
+#         res=res+i
+# print(res)
+
+
+
+
+# text = "hello python world"
+# long=""
+# res=text.split()
+# for i in res:
+#     if len(i)>len(long):
+#         long=i
+# print(long)
+
+
+
+# text = "python programming"
+# r=[]
+# for i in text:
+#     if i not in r:
+#         r.append(i)
+# print(r)
+
+
+
+n=11
+if n<=1:
+    print("not a prime")
+else:
+    for i in range(2,n):
+        if n%i==0:
+            print("not a prime")
+            break
+    else:
+        print("prime")
+
+
