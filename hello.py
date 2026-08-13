@@ -2605,15 +2605,103 @@
 
 
 
-n=11
-if n<=1:
-    print("not a prime")
-else:
-    for i in range(2,n):
-        if n%i==0:
-            print("not a prime")
-            break
-    else:
-        print("prime")
+# n=11
+# if n<=1:
+#     print("not a prime")
+# else:
+#     for i in range(2,n):
+#         if n%i==0:
+#             print("not a prime")
+#             break
+#     else:
+#         print("prime")
+
+
+
+# student = {
+#     "name": "Safa",
+#     "age": 20,
+#     "mark": 95
+# }
+# student.update({"mark":100})
+# student.clear()
+# print(student.items())
+
+# a = {1, 2, 3, 4}
+# b = {3, 4, 5, 6}
+# print(a&b)
+
+
+# t = (10, 20, 30, 20, 40, 20)
+# print(t.count(20))
+
+
+# numbers = [10, 20, 30, 40, 50]
+# numbers.remove(30)
+# print(numbers)
+
+# a = {1, 2, 3, 4}
+# b = {3, 4, 5, 6}
+# print(a-b)
+
+
+# student = {
+#     "name": "Safa",
+#     "age": 20,
+#     "mark": 95
+# }
+# student.update({"city": "Malappuram"})
+# print(student["city"])
+
+
+# numbers = [10, 20, 30, 40, 50]
+# res=numbers.pop(2)
+# print(numbers)
+# print(res)
+
+
+
+# class Animal:
+#     def Safa(self):
+#         print("helloo safaaa")
+# class Dog(Animal):
+#     def()
+
+
+
+
+# numberr=[1,2,3,4]
+# res=[i*2 for i in numberr]
+# print(res)
+
+# numbers = [1, 2, 3, 4, 5, 6]
+# res = [i for i in numbers if i % 2 == 0]
+# print(res)
+
+
+# numbers = [1, 2, 3, 4, 5]
+# res=map(lambda x:x**x,numbers)
+# print(list(res))
+
+# num={1,2,3}
+# num.update({4})
+# print(num)
+# a=[1,2,3]
+# b=[[1,2,3],2]
+# print(a==b)
+# print(a is b)
+# print(a in b)
+
+
+from abc import ABC ,abstractmethod
+class Animal(ABC):
+    @abstractmethod
+    def sound(self):
+        print("helloo safaa")
+class Dog(Animal):
+    def sound(self):
+        print("helloo")
+d=Dog()
+d.sound()
 
 
