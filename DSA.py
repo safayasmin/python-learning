@@ -893,13 +893,149 @@
 
 
 
-# hash fuction collision handle cheyyan
-def hash_function(key):
-    return len(key)%10
-hash_table=[[] for _ in range(10)]
-names=["safa","shifa","shahma","ashmil"]
+# # hash fuction collision handle cheyyan  chaining method
+# def hash_function(key):
+#     return len(key)%10
+# hash_table=[[] for _ in range(10)]
+# names=["safa","shifa","shahma","ashmil"]
 
-for name in names:
-    index=hash_function(name)
-    hash_table[index].append(name)
-print(hash_table)
+# for name in names:
+#     index=hash_function(name)
+#     hash_table[index].append(name)
+# print(hash_table)
+
+
+
+
+
+
+
+# # hasfunction collision aya open adress vazhi solve
+
+# def hash_function(key):
+#     return len(key)%10
+
+# hash_table=[None]*10
+# names=["safa","shfa","shahma","ashmil","safa"]
+# for name in names:
+#     index=hash_function(name)
+
+#     while hash_table[index] is not None:
+#         index=(index+1)%10
+
+#     hash_table[index]=name
+# print(hash_table)
+
+
+
+
+
+
+
+
+
+
+# print(hash("helloooo"))
+
+
+
+# number=[1,2,3,4,2,2,1]
+# freequency={}
+# for num in number:
+#     if num in freequency:
+#         freequency[num]+=1
+#     else:
+#         freequency[num]=1
+
+# max=0
+# max_element=0
+# for m in freequency:
+#     if freequency[m]>max:
+#         max=freequency[m]
+#         max_element=m
+# print(freequency)
+# print(max_element)
+
+
+
+
+# s="safaaa"
+# frequency={}
+# for val in s:
+#     if val in frequency:
+#         frequency[val]+=1
+#     else:
+#         frequency[val]=1
+
+# print(frequency)
+
+
+
+
+
+
+
+# number=[1,2,3,4,2,2,1]
+# freequency={}
+# for num in number:
+#     if num in freequency:
+#         freequency[num]+=1
+#     else:
+#         freequency[num]=1
+# for m in freequency:
+#     if freequency[m]>1:
+#         print(m)
+# print(freequency)
+
+
+
+# num=[1,2,3,4,3,2]
+# freeq={}
+# for i in num:
+#     if i in freeq:
+#         freeq[i]+=1
+#     else:
+#         freeq[i]=1
+# print(freeq)   
+# for i in freeq:
+#     if freeq[i]>1:
+#         print(i)
+
+
+
+
+
+
+
+
+# students = [
+#     (101, "Safa"),
+#     (102, "Shifa"),
+#     (103, "Rahul")
+# ]
+# for s in students:
+#     if students[0]==102:
+#         print(students[1])
+
+
+
+# def fibonacci(n):
+#     if n==0:
+#         return 0
+#     if n == 1:
+#         return 1
+#     return fibonacci(n-1)+fibonacci(n-2)
+# print(fibonacci(6))
+
+
+
+
+
+
+def reverse_string(str):
+    if len(str)<=1:
+        return str
+    return reverse_string(str[1:])+str[0]
+print(reverse_string("hello"))    
+    
+   
