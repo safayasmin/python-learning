@@ -702,9 +702,204 @@
 
 
 
-arr=[10,20,30,40,5,6]
-target=30
-for i in range(len(arr)):
-    if arr[i]==target:
-        print("found the value :",i)
-        break
+
+
+# lenear search
+
+# arr=[10,20,30,40,5,6]
+# target=30
+# for i in range(len(arr)):
+#     if arr[i]==target:
+#         print("found the value :",i)
+#         break
+
+
+
+
+# leaner search another way
+
+# def lenear(arr,target):
+#     for i in range(len(arr)):
+#         if arr[i]==target:
+#             print("found at the index",i)
+#             return
+#     print("not found")
+
+# arr=[1,2,33,4,56,6]
+# res=lenear(arr,22)
+# print(res)
+
+
+
+
+
+# # binery search eg code
+
+# def search(arr,target):
+#     low=0
+#     high=len(arr)-1
+
+#     while low<=high:
+#         mid=(low+high)//2
+
+#         if arr[mid]==target:
+#             return mid
+#         elif target<arr[mid]:
+#             high=mid-1
+#         else:
+#             low=mid+1
+
+# arr=[10,20,30,40,50,60,70]
+# print(search(arr,60))
+
+
+
+# def binary_search(arr,target):
+#     low=0
+#     high=len(arr)-1
+#     while low<=high:
+#         mid=(low+high)//2
+#         if arr[mid]==target:
+#             return mid
+#         elif target<arr[mid]:
+#             high=mid-1
+#         else:
+#             low=mid+1
+#     print("found at the position",mid)
+# arr = [5, 12, 18, 25, 31, 38, 45, 52, 60]
+# print(binary_search(arr, 45))
+
+
+
+
+
+# # buble sort eg code
+# def buble_sort(arr):
+#     n=len(arr)
+
+#     for i in range(n):
+#         for j in range(n-i-1):
+#             if arr[j]>arr[j+1]:
+#                 arr[j],arr[j+1]=arr[j+1],arr[j]
+#     return arr
+# arr=[5, 3, 8, 4, 2]
+# print(buble_sort(arr))
+
+
+
+
+# # selection sort eg
+# def selection_sort(arr):
+#     n=len(arr)
+#     for i in range(n):
+#         min_index=i
+#         for j in range(i+1,n):
+#             if arr[j]<arr[min_index]:
+#                 min_index=j
+#         arr[i],arr[min_index]=arr[min_index],arr[i]
+#     return arr
+# arr=[5,6,4,3,8,2]
+# print(selection_sort(arr))
+
+
+
+
+# def insertion_sort(arr):
+
+#     for i in range(1, len(arr)):
+
+#         key = arr[i]
+
+#         j = i - 1
+
+#         while j >= 0 and arr[j] > key:
+
+#             arr[j + 1] = arr[j]
+
+#             j -= 1
+
+#         arr[j + 1] = key
+
+#     return arr
+# arr=[5,6,4,3,8,2]
+# print(insertion_sort(arr))
+
+
+
+
+
+
+
+# num=[19,20,1,30,5]
+# num.sort()
+# print(num)
+
+# num=[19,20,1,30,5]
+# print(sorted(num, reverse=True))
+
+# names = ["Safa", "Ali", "Muhammed", "Jo"]
+# print(sorted(names ,key=len))
+
+
+
+
+# students = [
+#     ("Safa", 90),
+#     ("Ali", 75),
+#     ("Zara", 95)
+# ]
+# res=sorted(students,key=lambda x:x>students[1] ,reverse=True)
+# print(res)
+
+
+
+
+
+# recursion
+
+# def power(val,exponent):
+#     if exponent==0:
+#         return 1
+#     return val*power(val,exponent-1)
+# print(power(2,3))
+
+
+
+# def hash_function(key):
+#     return len(key)
+# print(hash_function("safaaa"))
+
+
+
+
+
+
+
+
+
+# # hash fuctuon
+# def hash_function(key):
+#     return len(key)%10
+# hash_table=[None]*10
+# names=["safa","shifa","shahma","ashmil"]
+# for name in names:
+#     index=hash_function(name)
+#     hash_table[index]=name
+#     hash_table[5]="hdjssss"
+# print(hash_table)
+
+
+
+
+
+
+# hash fuction collision handle cheyyan
+def hash_function(key):
+    return len(key)%10
+hash_table=[[] for _ in range(10)]
+names=["safa","shifa","shahma","ashmil"]
+
+for name in names:
+    index=hash_function(name)
+    hash_table[index].append(name)
+print(hash_table)
